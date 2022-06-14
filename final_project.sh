@@ -36,7 +36,7 @@ currentTS=$(date +%s)
 # Define a variable called backupFileName to store the name of the archived and compressed backup file that the script will create.
 # The variable backupFileName should have the value "backup-[$currentTS].tar.gz"
 
-backupFileName="backup-[$currentTS].tar.gz"
+backupFileName="backup-$currentTS.tar.gz"
 
 # We're going to:
   # 1: Go into the target directory
